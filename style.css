@@ -9,7 +9,7 @@ img {
 }
 
 body {
-  background-color: white;
+  background-color: whitesmoke;
 }
 
 section {
@@ -37,7 +37,7 @@ p {
 }
 
 article {
-  background-color: whitesmoke;
+  background-color: white;
 }
 
 .pris {
@@ -48,7 +48,18 @@ article {
 
 .valgt {
   color: #f1c4f2;
-  background-color: #221bf2;
+  background-color: #1712a6;
+  border: #f1c4f2 2px dotted;
+  border-radius: 3px;
+}
+
+button {
+  color: #1712a6;
+  background-color: #f1c4f2;
+  padding: 7px;
+  border: #1712a6 2px dotted;
+  font-weight: bold;
+  border-radius: 3px;
 }
 
 #popup {
@@ -86,7 +97,7 @@ article {
   margin: 1rem auto;
   padding: 12px;
   text-align: center;
-  background-color: whitesmoke;
+  background-color: white;
 }
 
 #popup h2 {
@@ -106,4 +117,5 @@ nav {
   display: flex;
   justify-content: center;
   align-items: center;
+  gap: 10px;
 }
