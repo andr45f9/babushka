@@ -9,7 +9,7 @@ img {
 }
 
 body {
-  background-color: #f2f2f2;
+  background-color: white;
 }
 
 section {
@@ -22,26 +22,26 @@ section {
 
 h1 {
   text-align: center;
-  color: #1712a6;
+  color: black;
   font-size: 3rem;
 }
 
 h2 {
   padding-left: 1rem;
-  color: #ff00ec;
+  color: black;
 }
 
 p {
   padding-left: 1rem;
-  color: #f2f2f2;
+  color: black;
 }
 
 article {
-  background-color: #221bf2;
+  background-color: whitesmoke;
 }
 
 .pris {
-  color: #f1c4f2;
+  color: black;
   font-weight: bold;
   font-size: 1.2rem;
 }
@@ -49,4 +49,61 @@ article {
 .valgt {
   color: #f1c4f2;
   background-color: #221bf2;
+}
+
+#popup {
+  display: none;
+  position: fixed;
+  left: 0;
+  top: 0;
+  background-color: rgba(128, 128, 128, 0.575);
+  width: 100%;
+  height: 100%;
+  overflow: scroll;
+  grid-template-columns: none;
+  margin: 0;
+}
+
+#luk_knap {
+  position: fixed;
+  padding: 0.3rem 0.6rem 0.1rem 0.6rem;
+  margin: 1rem 0 0 1rem;
+  font-size: 2rem;
+  font-weight: bolder;
+  color: whitesmoke;
+  background-color: #1712a6;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+}
+
+#popup article {
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+  width: 60%;
+  margin: 1rem auto;
+  padding: 12px;
+  text-align: center;
+  background-color: whitesmoke;
+}
+
+#popup h2 {
+  font-size: 2rem;
+}
+
+.popup_pris {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+#splashbillede {
+  margin-bottom: 2rem;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
