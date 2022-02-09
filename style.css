@@ -9,7 +9,7 @@ img {
 }
 
 body {
-  background-color: whitesmoke;
+  background-color: #fdf1fd;
 }
 
 section {
@@ -24,26 +24,32 @@ h1 {
   text-align: center;
   color: black;
   font-size: 3rem;
+  font-family: "Hind Siliguri", sans-serif;
 }
 
 h2 {
-  padding-left: 1rem;
+  padding: 0 1rem;
   color: black;
+  font-family: "Hind Siliguri", sans-serif;
 }
 
 p {
-  padding-left: 1rem;
+  padding: 0 1rem;
   color: black;
+  font-family: "Hind Siliguri", sans-serif;
+  font-weight: 300;
 }
 
 article {
-  background-color: white;
+  background-color: #f1c4f2;
+  text-align: center;
 }
 
 .pris {
-  color: black;
+  color: rgb(235, 29, 235);
   font-weight: bold;
   font-size: 1.2rem;
+  font-family: "Hind Siliguri", sans-serif;
 }
 
 .valgt {
@@ -56,10 +62,11 @@ article {
 button {
   color: #1712a6;
   background-color: #f1c4f2;
-  padding: 7px;
+  padding: 3px 9px;
   border: #1712a6 2px dotted;
   font-weight: bold;
   border-radius: 3px;
+  font-family: "Hind Siliguri", sans-serif;
 }
 
 #popup {
@@ -97,7 +104,7 @@ button {
   margin: 1rem auto;
   padding: 12px;
   text-align: center;
-  background-color: white;
+  background-color: #f1c4f2;
 }
 
 #popup h2 {
@@ -107,6 +114,7 @@ button {
 .popup_pris {
   font-size: 1.5rem;
   font-weight: bold;
+  color: rgb(235, 29, 235);
 }
 
 #splashbillede {
