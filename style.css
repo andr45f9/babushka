@@ -23,7 +23,7 @@ section {
 h1 {
   text-align: center;
   color: black;
-  font-size: 3rem;
+  font-size: 2rem;
   font-family: "Hind Siliguri", sans-serif;
 }
 
@@ -62,7 +62,8 @@ article {
 button {
   color: #1712a6;
   background-color: #f1c4f2;
-  padding: 3px 9px;
+  width: 90px;
+  height: 40px;
   border: #1712a6 2px dotted;
   font-weight: bold;
   border-radius: 3px;
@@ -123,7 +124,23 @@ button {
 
 nav {
   display: flex;
+  flex-flow: column;
   justify-content: center;
   align-items: center;
   gap: 10px;
+}
+
+@media (min-width: 800px) {
+  h1 {
+    font-size: 3rem;
+  }
+  nav {
+    flex-flow: row;
+  }
+
+  button {
+    font-size: 1rem;
+    width: 110px;
+    height: 45px;
+  }
 }
